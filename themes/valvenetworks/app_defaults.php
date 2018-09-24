@@ -28,7 +28,7 @@
 	if ($domains_processed == 1) {
 	
 		//get the background images
-			$relative_path = PROJECT_PATH.'/themes/default/images/backgrounds';
+			$relative_path = PROJECT_PATH.'/themes/valvenetworks/images/backgrounds';
 			$backgrounds = opendir($_SERVER["DOCUMENT_ROOT"].'/'.$relative_path);
 			unset($array);
 			$x = 0;
